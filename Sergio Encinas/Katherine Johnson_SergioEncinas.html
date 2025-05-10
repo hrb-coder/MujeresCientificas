@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katherine Johnson - Biografía y Contribuciones</title>
+    <style>
+        :root {
+            --primary-color: #ff6961;
+            --secondary-color: #f5f5f5;
+            --border-color: #e0e0e0;
+            --text-color: #333333;
+            --hover-color: #e8f0ff;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            background-color: #fcfcfc;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        
+        header p {
+            margin: 10px 0 0;
+            font-style: italic;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        th, td {
+            border: 1px solid var(--border-color);
+            padding: 15px;
+            vertical-align: top;
+        }
+        
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            text-align: center;
+        }
+        
+        th:hover {
+            background-color: #2855b0;
+        }
+        
+        .content {
+            display: none;
+            padding: 15px 5px;
+            animation: fadeIn 0.5s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .visible {
+            display: block;
+        }
+        
+        .titulo-seccion {
+            font-weight: bold;
+            font-size: 1.3em;
+            margin: 15px 0 10px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid var(--primary-color);
+            color: var(--primary-color);
+        }
+        
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        
+        img:hover {
+            transform: scale(1.02);
+        }
+        
+        .img-caption {
+            text-align: center;
+            font-style: italic;
+            margin-top: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .fuentes {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: var(--secondary-color);
+            border-radius: 5px;
+        }
+        
+        .fuentes a {
+            color: var(--primary-color);
+            text-decoration: none;
+            margin-right: 15px;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        
+        .fuentes a:hover {
+            text-decoration: underline;
+            color: #2855b0;
+        }
+        
+        strong {
+            color: var(--primary-color);
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Katherine Johnson</h1>
+        <p>Matemática y científica espacial pionera de la NASA</p>
+      </header>
+      <table>
+        <tbody>
+          <tr>
+            <th onclick="toggleSection('biografia')">Biografía</th>
+            <th onclick="toggleSection('contribuciones')">Contribuciones a las
+              TIC</th>
+            <th onclick="toggleSection('fotos')">Fotos</th>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <!-- Sección de Biografía -->
+              <div id="biografia" class="content">
+                <div class="titulo-seccion">Introducción a su vida</div>
+                <p>Katherine Johnson (1918-2020) fue una matemática y científica
+                  espacial estadounidense cuya labor fue clave en los primeros
+                  vuelos espaciales tripulados de la NASA. Trabajó durante 35
+                  años en la NASA y su predecesor, la NACA, realizando cálculos
+                  complejos para las misiones del Proyecto Mercury y Apolo. Su
+                  trabajo fue esencial para los vuelos de Alan Shepard y John
+                  Glenn. Johnson también contribuyó al programa del
+                  transbordador espacial y a la planificación de misiones a
+                  Marte. Fue galardonada con la Medalla Presidencial de la
+                  Libertad (2015) y la Medalla de Oro del Congreso (2019), y su
+                  vida fue representada en la película <i>Hidden Figures</i>.</p>
+                <div class="titulo-seccion">Etapas de sus estudios</div>
+                <ul>
+                  <li><strong>Educación temprana:</strong> Debido a la
+                    segregación racial, la familia de Katherine se trasladó a
+                    Institute, Virginia Occidental, para que ella y sus hermanos
+                    pudieran asistir a la escuela secundaria que se encontraba
+                    en el campus del West Virginia State College. Se graduó de
+                    la escuela secundaria a los 14 años.</li>
+                  <li><strong>Educación universitaria:</strong> A los 15 años,
+                    ingresó en el West Virginia State College, una universidad
+                    históricamente negra, donde fue guiada por profesores
+                    destacados como Angie Turner King y W.W. Schieffelin
+                    Claytor. Se graduó summa cum laude en 1937, a los 18 años,
+                    con títulos en Matemáticas y Francés.</li>
+                  <li><strong>Estudios de posgrado:</strong> En 1939, fue
+                    seleccionada como una de los tres estudiantes
+                    afroamericanos, y la única mujer, para integrar el programa
+                    de posgrado en matemáticas de la Universidad de Virginia
+                    Occidental, tras una decisión de la Corte Suprema de EE.UU.
+                    que permitía a estudiantes negros asistir a universidades
+                    para blancos. Sin embargo, dejó el programa al poco tiempo
+                    para formar una familia.</li>
+                </ul>
+              </div>
+              <!-- Sección de Contribuciones -->
+              <div id="contribuciones" class="content">
+                <div class="titulo-seccion">Contribuciones destacadas</div>
+                <ul>
+                  <li><strong>Cálculo de trayectorias en misiones espaciales:</strong>
+                    Johnson calculó la trayectoria del vuelo de Alan Shepard en
+                    1961, el primer estadounidense en el espacio. Además, sus
+                    cálculos fueron vitales para la misión Apolo 11 en 1969, que
+                    llevó al primer hombre a la Luna.</li>
+                  <li><strong>Verificación de cálculos computacionales:</strong>
+                    En 1962, durante la misión de John Glenn, la NASA comenzó a
+                    utilizar computadoras electrónicas para calcular órbitas.
+                    Glenn solicitó específicamente que Johnson verificara
+                    manualmente los cálculos de la computadora antes de su vuelo
+                    orbital, demostrando la confianza en su precisión
+                    matemática.</li>
+                  <li><strong>Desarrollo de procedimientos de navegación:</strong>
+                    Tras la explosión en la misión Apolo 13 en 1970, Johnson
+                    contribuyó a desarrollar procedimientos y mapas de
+                    navegación de respaldo que ayudaron a guiar a la tripulación
+                    de regreso a salvo a la Tierra.</li>
+                </ul>
+                <div class="titulo-seccion">Impacto en la exploración espacial</div>
+                <p>Sus cálculos fueron fundamentales para garantizar la
+                  precisión de las trayectorias de las misiones espaciales de la
+                  NASA. Jugó un papel clave en la misión Apolo 11 que llevó al
+                  primer hombre a la Luna en 1969.</p>
+                <p>John Glenn, astronauta del programa Mercury, pidió
+                  específicamente que ella verificara los cálculos de su misión
+                  orbital antes de su lanzamiento.</p>
+                <p>Participó en la planificación de la misión Apolo 13, cuyo
+                  regreso seguro fue posible gracias a sus cálculos.</p>
+              </div>
+              <!-- Sección de Fotos -->
+              <div id="fotos" class="content"> <img src="imagen_katherine_johnson.jpg"
+
+                  alt="Katherine Johnson en su oficina de la NASA">
+                <p class="img-caption">Katherine Johnson, matemática pionera de
+                  la NASA</p>
+                <img src="katherine_johnson_medalla.jpg" alt="Katherine Johnson recibiendo reconocimiento"
+
+                  title="Katherine Johnson recibiendo reconocimiento">
+                <p class="img-caption">Katherine Johnson recibiendo
+                  reconocimiento por sus contribuciones a la ciencia espacial</p>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="fuentes">
+        <p><strong>Fuentes de información:</strong></p>
+        <a href="https://www.39ymas.com/katherine-johnson-matematica-clave-llegada-luna/"
+
+          target="_blank">39ymás</a> <a href="https://www.nationalgeographic.es/historia/2020/10/matematica-katherine-johnson-labor-esencial-luna-recibe-medalla-hubbard"
+
+          target="_blank">National Geographic</a> <a href="https://ciencia.nasa.gov/gente-de-la-nasa/el-legado-de-katherine-g-johnson-0/"
+
+          target="_blank">Ciencia NASA</a> <a href="https://www.bbc.com/mundo/noticias-51617960"
+
+          target="_blank">BBC Mundo</a> <a href="https://elpais.com/elpais/2018/08/21/ciencia/1534874294_328775.html"
+
+          target="_blank">El País</a> <a href="https://mujeresconciencia.com/2016/12/12/katherine-johnson-la-calculadora-humana/"
+
+          target="_blank">Mujeres con Ciencia</a> </div>
+    </div>
+    <script>
+      function toggleSection(sectionId) {
+          // Obtener todas las secciones
+          var allSections = document.querySelectorAll('.content');
+          
+          // Cerrar todas las secciones
+          allSections.forEach(function(section) {
+              section.classList.remove('visible');
+          });
+          
+          // Abrir la sección seleccionada
+          var selectedSection = document.getElementById(sectionId);
+          selectedSection.classList.toggle('visible');
+      }
+    </script>
+  </body>
+</html>

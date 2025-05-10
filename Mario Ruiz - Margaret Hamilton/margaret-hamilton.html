@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margaret Hamilton</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+        }
+        
+        section {
+            padding: 60px 10%;
+        }
+        
+        h1, h2, h3 {
+            margin-bottom: 20px;
+            color: #184a88;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        .btn {
+            background-color: #184a88;
+            color: white;
+            padding: 12px;
+            margin: 5px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        
+        .btn:hover {
+            background-color: #0c2d5a;
+        }
+        
+        #hero {
+            background-image: url('images/bg.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 10%;
+            gap: 100px;
+        }
+        
+        .hero-content {
+            flex: 1;
+            max-width: 500px;
+        }
+        
+        .hero-content h1 {
+            font-size: 3em;
+            color: white;
+            margin-bottom: 20px;
+        }
+        
+        .hero-content p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        
+        .hero-image {
+            flex: 1;
+            text-align: center;
+            max-width: 400px;
+        }
+        
+        .hero-image img {
+            max-width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+        
+        #biografia {
+            display: flex;
+            align-items: center;
+            background-color: white;
+        }
+        
+        .biografia-image {
+            flex: 1;
+            text-align: center;
+        }
+        
+        .biografia-image img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        
+        .biografia-content {
+            flex: 2;
+            padding-left: 40px;
+        }
+        
+        #contribuciones {
+            background-color: #e9f0f9;
+        }
+        
+        .contribuciones-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .contribucion {
+            background-color: white;
+            border-radius: 15px;
+            padding: 25px;
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .contribucion h3 {
+            color: #184a88;
+            border-bottom: 2px solid #184a88;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        
+        #proyectos {
+            background-color: white;
+        }
+        
+        .proyectos-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .proyecto {
+            background-color: #184a88;
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+        }
+        
+        .proyecto:nth-child(even) {
+            background-color: #0c2d5a;
+        }
+        
+        .proyecto h3 {
+            color: white;
+            margin-bottom: 15px;
+        }
+        
+        .proyecto:last-child {
+            grid-column: span 2;
+        }
+
+        .proyecto ul {
+            padding-left: 30px;
+        }
+
+        .proyecto li {
+            margin-bottom: 8px;
+        }
+
+        .fuentes {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+        }
+        
+        .fuentes a {
+            color: #184a88;
+            margin-right: 20px;
+            text-decoration: none;
+        }
+        
+        .fuentes a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Margaret Hamilton</h1>
+            <p>Margaret Hamilton es una pionera de la ingeniería de software y científica computacional que lideró el desarrollo del software de navegación para el Programa Espacial Apolo de la NASA.</p>
+            <div class="hero-buttons">
+                <a href="#biografia" class="btn">Biografía</a>
+                <a href="#contribuciones" class="btn">Contribuciones</a>
+                <a href="#proyectos" class="btn">Proyectos</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/margaret.png" alt="Margaret Hamilton">
+        </div>
+    </section>
+
+    <section id="biografia">
+        <div class="biografia-image">
+            <img src="images/colegio.png" alt="Colegio de Margaret Hamilton">
+        </div>
+        <div class="biografia-content">
+            <h2>Biografía</h2>
+
+            <p>Margaret Heafield Hamilton, nacida el 17/08/1936 en Paoli, Indiana, es una matemática y científica computacional pionera. Se graduó en matemáticas con especialización en filosofía en Earlham College (1958)</p>
+
+            <p>Aunque inicialmente planeaba estudiar matemáticas abstractas, comenzó a programar en el MIT para mantener económicamente a su esposo, descubriendo su pasión por la computación.</p>
+            
+            <p>Después de la NASA, fundó Higher Order Software (1976) y Hamilton Technologies (1986), donde desarrolló su paradigma "Desarrollo Antes del Hecho" (DBTF). Acuñó el término "ingeniería de software" y fue pionera en conceptos como programación asíncrona, prioritaria y orientada a objetos antes de que estos se popularizaran.</p>
+            
+            <p>Ha recibido importantes reconocimientos, incluyendo la Medalla Excepcional del Servicio Espacial de la NASA (1971) y la Medalla Presidencial de la Libertad (2016). Sigue siendo una inspiración para las mujeres en ciencia y tecnología.</p>
+        </div>
+    </section>
+
+    <section id="contribuciones">
+        <h2>Contribuciones a las TIC</h2>
+        <div class="contribuciones-container">
+            <div class="contribucion">
+                <h3>Ingeniería de Software</h3>
+                <p>Hamilton fue quien acuñó el término "ingeniería de software" para dar legitimidad y rigor científico al proceso de desarrollo de software, en una época en que la programación no se consideraba una disciplina científica. Su enfoque metódico y riguroso estableció muchas de las bases para lo que hoy conocemos como ingeniería de software.</p>
+            </div>
+            <div class="contribucion">
+                <h3>Software de Navegación Apolo</h3>
+                <p>Lideró el equipo que desarrolló el software de navegación para el Programa Apolo, crucial para el éxito de las misiones lunares. Este software tenía que funcionar en condiciones extremas con recursos de hardware muy limitados, lo que requirió soluciones innovadoras. Su diseño permitió la priorización de tareas en tiempo real, salvando la misión Apolo 11 de un aborto en los últimos minutos.</p>
+            </div>
+            <div class="contribucion">
+                <h3>Programación de Errores Humanos</h3>
+                <p>Hamilton desarrolló técnicas para que el software pudiera detectar y recuperarse de errores causados por los astronautas, un concepto pionero en una época en que se asumía que los usuarios siempre seguirían las instrucciones correctamente. Esta aproximación fue revolucionaria y ahora es un estándar en desarrollo de software.</p>
+            </div>
+            <div class="contribucion">
+                <h3>Development Before the Fact (DBTF)</h3>
+                <p>Creó este paradigma de desarrollo que se enfoca en prevenir errores desde el diseño, en lugar de detectarlos y corregirlos después de que ocurran. Este enfoque ha influido significativamente en metodologías modernas de desarrollo y en técnicas de prevención de errores.</p>
+            </div>
+            <div class="contribucion">
+                <h3>Universal Systems Language (USL)</h3>
+                <p>Desarrolló este lenguaje basado en su paradigma DBTF, que integra la especificación formal, el diseño y la implementación en un único proceso, eliminando muchas de las inconsistencias que surgen cuando estas fases se tratan por separado.</p>
+            </div>
+            <div class="contribucion">
+                <h3>Sistemas de Priorización</h3>
+                <p>Implementó sistemas de priorización que permitían a las computadoras descartar tareas menos importantes en favor de las críticas cuando los recursos eran limitados, una innovación crucial para sistemas de tiempo real como los utilizados en las misiones espaciales.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos Destacados y Premios</h2>
+        <div class="proyectos-container">
+            <div class="proyecto">
+                <h3>SAGE (Semi-Automatic Ground Environment)</h3>
+                <p>Participó en este proyecto de defensa aérea para Estados Unidos que fue uno de los primeros sistemas computacionales en tiempo real a gran escala. Esta experiencia le proporcionó conocimientos valiosos sobre sistemas críticos que luego aplicaría en el Programa Apolo.</p>
+            </div>
+            <div class="proyecto">
+                <h3>Software de Navegación del Programa Apolo</h3>
+                <p>Su trabajo más conocido y quizás el más importante. Hamilton lideró el equipo que desarrolló el software que guió las misiones Apolo a la Luna, incluyendo el histórico alunizaje del Apolo 11. Este software fue crucial para el éxito del programa espacial estadounidense.</p>
+            </div>
+            <div class="proyecto">
+                <h3>Higher Order Software (HOS)</h3>
+                <p>Fundó esta compañía en 1976 donde desarrolló USE.IT, un producto basado en su paradigma DBTF. HOS se centró en crear herramientas y metodologías para mejorar la fiabilidad del software a través de un enfoque matemático riguroso.</p>
+            </div>
+            <div class="proyecto">
+                <h3>Hamilton Technologies</h3>
+                <p>Fundada en 1986, esta empresa se centró en el desarrollo y comercialización del Universal Systems Language (USL) y su entorno asociado para la creación de sistemas 001. Estos sistemas estaban diseñados para eliminar errores desde las primeras etapas del desarrollo.</p>
+            </div>
+            <div class="proyecto">
+                <h3>Skylab</h3>
+                <p>Tras su éxito con el Programa Apolo, Hamilton también trabajó en el desarrollo de software para Skylab, la primera estación espacial estadounidense, aplicando muchas de las lecciones aprendidas durante el desarrollo del software de Apolo.</p>
+            </div>
+            <div class="proyecto">
+                <h3>Premios</h3>
+                <ul>
+                    <li>"Premio Augusta Ada Lovelace Award" (1986)</li>
+                    <li>"NASA Exceptional Space Act Award" (2003)</li>
+                    <li>"Outstanding Alumni Award" del Earlham College (2009)</li>
+                    <li>Medalla Presidencial de la Libertad (2016)</li>
+                    <li>Creación de figuras de LEGO "Mujeres de la NASA" (2017)</li>
+                    <li>Fue investida "honoris causa" por la Universidad Politécnica de Cataluña</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="fuentes">
+            <h3>Fuentes:</h3>
+            <a href="https://mujeresconciencia.com/2017/06/07/margaret-hamilton-la-primera-ingeniera-software/" target="_blank">Mujeres con Ciencia</a>
+            <a href="https://www.lavanguardia.com/magazine/personalidades/margaret-hamilton-mujer-que-llevo-al-hombre-luna.html" target="_blank">La Vanguardia</a>
+            <a href="https://hipertextual.com/2015/05/margaret-hamilton-apolo-11" target="_blank">Hipertextual</a>
+            <a href="https://es.wikipedia.org/wiki/Margaret_Hamilton_(científica)" target="_blank">Wikipedia</a>
+            <a href="https://pionerasinformaticas.ujaen.es/es/pioneras-informaticas/margaret-hamilton-es" target="_blank">Pioneras Informáticas</a>
+        </div>
+    </section>
+</body>
+</html>

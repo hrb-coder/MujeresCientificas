@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="file:///C:/Users/sofia/OneDrive/Escritorio/SofiaMaryKenn/style/2.css">
+  </head>
+  <body>
+    <p></p>
+    <table class="menu">
+      <tbody>
+        <tr>
+          <td><a href="file:///C:/Users/sofia/OneDrive/Escritorio/SofiaMaryKenn/Mary%20Kenneth%20Keller.html"
+              title="Inicio">Inicio</a></td>
+          <td><a href="file:///C:/Users/sofia/OneDrive/Escritorio/SofiaMaryKenn/Biografia.html"
+              title="Biografia">Biografia</a></td>
+          <td><a href="file:///C:/Users/sofia/OneDrive/Escritorio/SofiaMaryKenn/Publicaciones.html"
+              title="Publicaciones">Publicaciones</a></td>
+          <td><a href="file:///C:/Users/sofia/OneDrive/Escritorio/SofiaMaryKenn/Reconocimientos.html"
+              title="Reconocimientos">Reconocimiento</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <h1 class="tituloB"> Publicaciones</h1>
+    <p><span data-teams="true"> </span></p>
+    <p class="Texto"> Algunos de los proyectos y publicaciones que reflejan su
+      aporte al campo:</p>
+    <ol>
+      <li class="Texto"><strong>Proyecto de Integración de la Informática en las
+          Artes Liberales</strong>
+        <ul>
+          <li><strong>Fecha Aproximada:</strong> Mediados de la década de 1960
+            (alrededor de 1965)</li>
+          <li><strong>Descripción:</strong> Este proyecto buscó introducir
+            cursos de informática en instituciones de educación superior
+            centradas en las artes liberales. La iniciativa fue fundamental para
+            demostrar que la computación no era exclusiva de las carreras
+            técnicas, sino que podía enriquecer otras disciplinas.</li>
+        </ul>
+      </li>
+      <li class="Texto"><strong>Estudio sobre la Evolución de los Lenguajes de
+          Programación</strong>
+        <ul>
+          <li><strong>Fecha Aproximada:</strong> Principios de la década de 1970
+            (por ejemplo, 1971)</li>
+          <li><strong>Descripción:</strong> En este trabajo, Keller analizó el
+            desarrollo histórico y técnico de los lenguajes de programación,
+            identificando hitos y tendencias que marcaron la evolución de la
+            informática. Su enfoque combinaba aspectos históricos y prácticos
+            para ofrecer una visión integral del tema.</li>
+        </ul>
+      </li>
+      <li class="Texto"><strong>Metodologías Innovadoras en la Enseñanza de la
+          Computación</strong>
+        <ul>
+          <li><strong>Fecha Aproximada:</strong> Mediados de la década de 1970
+            (alrededor de 1974)</li>
+          <li><strong>Descripción:</strong> A través de artículos y
+            publicaciones, Keller expuso métodos pedagógicos que facilitaban la
+            enseñanza de la programación y otros fundamentos de la informática.
+            Su enfoque estaba orientado a hacer la materia accesible a
+            estudiantes de diversas disciplinas, contribuyendo a la expansión
+            del conocimiento computacional en el ámbito educativo.</li>
+        </ul>
+      </li>
+    </ol>
+    <p></p>
+    <p></p>
+    <p></p>
+    <footer id="footer">
+      <p class="autor">Autor: Sofía Pérez Puerta 2025</p>
+    </footer>
+  </body>
+</html>

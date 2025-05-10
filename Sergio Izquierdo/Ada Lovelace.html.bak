@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+#sergio {
+  background-color: #ff99ff;
+  direction: ltr;
+  text-align: center;
+}
+
+</style></head>
+  <body id="sergio">
+    <title>Ada Lovelace</title>
+    <h1> <span style="color: #663333;">Ada Lovelace</span></h1>
+    <h1> </h1>
+    <p id="Sergio"><br>
+    </p>
+    <p> <span style="font-family: SimSun;"><img src="imagenes/images.jpg" title="a">
+      </span><br>
+      <span style="color: #ff99ff;"><span style="color: black;">Índice:</span><br>
+      </span> </p>
+    <p><span style="color: #ff99ff;"></span></p>
+    <p></p>
+    <p> <span style="color: black;"><a href="#1%29Biograf%C3%ADa" id="1)Biografía">1)
+          Biografía</a></span><span style="color: black;"><a href="#2%29Obra" id="2) Obra"><br>
+        </a></span></p>
+    <p><span style="color: black;"><a href="#2%29Obra">2)Obra</a></span><span style="color: black;"></span><span
+        style="color: black;"><a href="#3%29Pol%C3%A9mica" id="3) Polémica"><br>
+        </a></span></p>
+    <p><span style="color: black;"><a href="#4%29Reconocimiento">3)Polémica</a></span></p>
+    <p><span style="color: black;"><a href="#4%29Reconocimiento">4)
+          Reconocimiento</a></span><span style="color: black;"><a href="#5%29Bibliograf%C3%ADa"
+          id="5) Bibliografía"><br>
+        </a></span></p>
+    <p><span style="color: black;"><a href="#5%29Bibliograf%C3%ADa">5)
+          Bibliografía</a></span></p>
+    <br>
+    <p></p>
+    <p></p>
+    <p><span style="color: #4c92a8;"></span><br>
+      <span style="font-family: SimSun;"></span></p>
+    <p> <span style="font-family: SimSun;"> <span style="color: #ff99ff;"></span></span></p>
+    <br>
+    <h2 id="obra"><a id="2)Obra">1) Biografía<br>
+      </a></h2>
+    <p></p>
+    <span style="color: #003300;"><span style="font-family: SimSun;">Ada
+        Lovelace es considerada como la madre de la informática y la primera
+        programadora de la historia. .Nació en 1815 y murió en 1852. Conoció a
+        Charles Babbage cuando eran joven, quien compartía su pasión por la
+        mecánica. Babbage era famoso por su trabajo en la máquina diferencial,
+        una calculadora mecánica capaz de operar sin intervención humana. </span>
+    </span>
+    <p> <span style="color: #003300;"><span style="font-family: SimSun;">En
+          1835 se casó con Lord King. En 1837 Lord King ascendió a conde de
+          Lovelace y desde ese momento Ada siempre firmaría como Ada Lovelace.</span></span></p>
+    <p><span style="color: #4c92a8;"><span style="font-family: SimSun;"><span style="color: #ff99ff;"></span></span></span></p>
+    <h2 id="obra"><a id="2)Obra">2) Obra</a></h2>
+    <p></p>
+    <span style="color: #4c92a8;"> <span style="font-family: SimSun;"> </span>
+    </span>
+    <p><span style="color: #003300;"><span style="font-family: SimSun;">En 1841
+          Ada expresó su deseo de colaborar con Babbage mediante una carta, este
+          aceptó, colaboraría con Babbage lo que le permitió desarrollar una
+          vida intelectual.</span></span></p>
+    <span style="color: #003300;"> <span style="font-family: SimSun;"> </span>
+    </span>
+    <p><span style="color: #003300;"><span style="font-family: SimSun;">La obra
+          más destacada de Ada fue 'Notas' donde se <span style="color:font-family: Aptos, sans-serif;"><span></span>
+            dedicó al estudio de la máquina analítica, describiendo
+            minuciosamente cómo funcionaría. A lo largo de sus notas, dejó
+            claras sus contribuciones teóricas, destacándose por su capacidad
+            para diferenciar entre datos y procesamiento, un concepto
+            revolucionario para su época.</span> Además, esta obra contiene el
+          considerado el primer programa de ordenador, que consiste en un
+          algoritmo codificado para que la máquina lo procese.<br>
+        </span></span> </p>
+    <span style="color: #003300;"> <span style="font-family: SimSun;"> </span>
+    </span>
+    <p><span style="color: #003300;"><span style="font-family: SimSun;"><span style="color:font-family: Aptos, sans-serif;"><span></span>
+            Ada Lovelace no solo escribió los primeros algoritmos destinados a
+            ser procesados por una máquina. Hoy se le reconoce como la primera
+            ingeniera de software, ya que no solo programó, sino que también
+            desarrolló la documentación necesaria para crear y entender sistemas
+            de procesamiento automático.</span></span></span></p>
+    <span style="color: #003300;"> <span style="font-family: SimSun;"> </span>
+    </span>
+    <p><span style="color: #003300;"><span style="font-family: SimSun;"> Ada
+          sugirió el uso de tarjetas perforadas como método para introducir
+          información y comandos en la máquina analítica. Además, mencionó por
+          primera vez la existencia de ceros, o estado neutro, en las tarjetas
+          perforadas, un concepto esencial para la programación.</span><span></span></span></p>
+    <span style="color: #003300;"> </span>
+    <p> <span style="color: #003300;"><span style="font-family: SimSun;"> </span></span>
+    </p>
+    <span style="color: #003300;"> </span>
+    <p><span style="color: #003300;"><span style="font-family: SimSun;"> Era una
+          mujer muy brillante, por eso siempre fue aún más allá, sugiriendo que
+          la máquina analítica no solo podría realizar cálculos matemáticos,
+          sino también producir arte, componer música y literatura, entre otras
+          cosas. Ada afirmaba que el invento sería capaz de hacer cualquier
+          tarea, siempre y cuando supiéramos cómo ordenárselo.</span></span></p>
+    <p><span style="color: #4c92a8;"><span style="font-family: SimSun;"><span style="color: #ff99ff;"></span></span></span></p>
+    <h2 id="Polémicas"><a id="3)Polémica"><span>3)Polémica<br>
+        </span></a></h2>
+    <p></p>
+    <span style="color: #4c92a8;"> </span>
+    <p><span style="color: #003300;"><span style="font-family: SimSun;">Ha
+          existido siempre una polemica en cuanto a sus contribuciones porque se
+          dice que Babbage fue quien hizo todo y ella solo se lleva el
+          reconocimiento por ser mujer, aunque quien afirma que Ada no aportó
+          nada, no puede demostrar que fuera así. Aunque bien es cierto que se
+          discute que no fuera la primera programadora, ya que se demostró que
+          Babbage escribió algoritmos parecidos unos años antes. <br>
+        </span></span></p>
+    <span style="color: #003300;"> </span>
+    <p><span style="color: #003300;"><span style="font-family: SimSun;">Algo es
+          innegable y es que Ada fue la primera ingeniera de software, pues ella
+          estudió, desarrolló y creó la documentación sobre un determinado
+          sistema de procesamiento automático.</span></span></p>
+    <p><span style="color: #4c92a8;"><span style="font-family: SimSun;"><span style="color: #ff99ff;"></span></span></span></p>
+    <h2 id="Reconocimiento"><a id="4)Reconocimiento">4)Reconocimiento</a></h2>
+    <p></p>
+    <span style="color: #4c92a8;"> </span>
+    <p><span style="color: #003300;"><span style="font-family: SimSun;">Aunque
+          no tuvo demasiado reconocimiento en vida, destacan reconocimientos
+          postumos como:</span></span></p>
+    <span style="color: #003300;"> </span>
+    <p><span style="color: #003300;"><span style="font-family: SimSun;">Ada
+          tiene un lenguaje de programación en su honor, 'ADA' creado por el
+          departamento de defensa de Estados Unidos en 1980 <br>
+        </span></span></p>
+    <span style="color: #003300;"> </span>
+    <p><span style="color: #003300;"><span style="font-family: SimSun;">La
+          asociación de mujeres en la informatica otorga el Premio Ada Lovelace
+          desde 1981.</span></span></p>
+    <span style="color: #003300;"> </span>
+    <p><span style="color: #003300;"><span style="font-family: SimSun;">La
+          British Computer otorga la Medalla Lovelace desde 1998.</span></span></p>
+    <span style="color: #003300;"> </span>
+    <p><span style="font-family: SimSun;"><span style="color: #003300;">También
+          tiene un día en su honor, el segundo martes de octubre, para tratar de
+          dar reconocimiento a las mujeres y a sus descubrimientos e invenciones
+          de las mujeres en ambitos como la ciencia, tecnología, ingeniería y
+          matematicas para introducir a más jovenes en la ciencia </span><br>
+      </span></p>
+    <p><span style="color: #ff99ff;"></span></p>
+    <h2 id="Bibliografía"><a id="5)Bibliografía">5)Bibliografía</a></h2>
+    <p></p>
+    <span style="color: #000099;"> <a href="https://biblioguias.uam.es/politecnica/exposiciones/mujeres-en-las-tic/adaLovelace"
+        target="_blank">pulsa para ir a la pagina de donde sale la información.</a>
+    </span>
+    <p><span style="color: #000099;"> <a href="https://es.wikipedia.org/wiki/Ada_Lovelace"
+          target="_blank">&gt;pulsa para ir a la otra pagina de donde sale la
+          información</a>.</span></p>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  overflow-x: hidden;
+  font-family: "Comfortaa", serif !important;
+  background-color: #fbebfa;
+  padding: 2em;
+}
+
+/*Quitar la subrayado del hipervinculo*/
+a {
+	text-decoration: none;
+}
+
+/*tabla class:menu*/
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #355245;
+  opacity: 0.85;
+  z-index: 10;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}
+
+.menu a {
+  color: #6be7ad; 
+  font-size: 1rem;
+  margin: 0.1px; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+.menu a:hover {
+  background-color: #355245; 
+  color: #d5a5d3 !important; 
+}
+
+.tituloB {
+  color: #6be7ad !important;
+  text-align: center;
+  font-size: 45px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 0;
+  text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}
+
+p.autor{
+	margin-left: 10px !important;
+  color: #5c8b76;
+  margin-bottom: 0;
+}
+
+.Texto {
+	color: #10472e;
+  margin-left: 10px;
+}
+
+.carrusel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden; /* Elimina la barra de desplazamiento */
+  position: relative;
+  width: 100%; 
+  justify-content: flex-start;
+}
+
+
+.elemento {
+  flex: 0 0 auto;
+  margin: 0 10px; 
+  background-color: #fff;
+  width: 500px; 
+  height: 245px;
+}
+
+.carrusel img {
+  width: 500px;
+  height: 245px; 
+}
+
+.carrusel {
+  width: 5000px;
+}
+
+/* Animación como java*/
+@keyframes desplazar {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-2500px);
+  }
+}
+
+/* Aplicar la animación al carrusel */
+.carrusel {
+  animation: desplazar 50s linear infinite;
+  transition: animation-duration 0.5s ease;
+}
+
+.active{
+  color:#d5a5d3 !important;
+  font-weight: bolder;
+}

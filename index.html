@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mujeres Científicas</title>
+    <link rel="stylesheet" type="text/css" href="-archivos_index/style.css">
+    <script>
+    function cargarPagina(pagina) {
+      // Cambia el atributo src del iframe para cargar la nueva página
+      document.getElementById('miIframe').src = pagina;
+    }
+
+    window.onload = function(){
+      cargarPagina('-archivos_index/pagina_inicio.html')
+    }
+
+  </script>
+  </head>
+  <body>
+    <header> <img src="-archivos_index/logo-gsd.png" alt="gsd">
+      <h1>Mujeres Científicas</h1>
+    </header>
+    <div class="contenedor">
+      <div class="lista-autoras">
+        <div class="box c1"> <a href="#" onclick="cargarPagina('-archivos_index/pagina_inicio.html')">Inicio</a>
+        </div>
+        <div class="box c2"> <a href="#" onclick="cargarPagina('Alonso%20de%20Mingo/%C3%81ngela%20Ruiz%20Robles%20-%20Pionera%20de%20las%20TIC.html')">Ángela
+            Ruiz Robles</a> </div>
+        <div class="box c3"> <a href="#" onclick="cargarPagina('Gonzalo%20Alonso/barbara%20liskov-gonzalo.html')">Barbara
+            Liskov</a> </div>
+        <div class="box c4"> <a href="#" onclick="cargarPagina('Ismael-%20Sheryl%20Sandberg/Sheryl%20Sandberg.html')">Sheryl
+            Sandberg</a> </div>
+        <div class="box c5"> <a href="#" onclick="cargarPagina('Iv%C3%A1n_Geijo_Grace_Hooper/Grace-Murray-Hopper.html')">Grace
+            Murray Hopper</a> </div>
+        <div class="box c6"> <a href="#" onclick="cargarPagina('Joaquin%20Fei-Fei%20Li/Fei-Fei%20Li%20-%20Biograf%C3%ADa%20entrega.html')">Fei-Fei
+            Li</a> </div>
+        <div class="box c1"> <a href="#" onclick="cargarPagina('Leo%20Ondaro%20Gaitero/RUTH%20PORAT.pdf')">Ruth
+            Porat</a> </div>
+        <div class="box c2"> <a href="#" onclick="cargarPagina('Lucas%20-Eva%20Tardos/Eva%20Tardos.html')">Eva
+            Tardos</a> </div>
+        <div class="box c3"> <a href="#" onclick="cargarPagina('Manuel%20Jim%C3%A9nez/presentacion%20piedad%20de%20la%20cierva.pdf')">Piedad de
+            la Cueva</a> </div>
+        <div class="box c4"> <a href="#" onclick="cargarPagina('Marcos%20Correa--Radia%20Perlman/Radia%20Perlman.html')">Radia
+            Perlman</a> </div>
+        <div class="box c5"> <a href="#" onclick="cargarPagina('Marcos%20L%C3%B3pez/Hedy%20Lamarr%20Inventora..pdf')">Hedy
+            Lamarr</a> </div>
+        <div class="box c6"> <a href="#" onclick="cargarPagina('Mario%20Ruiz%20-%20Margaret%20Hamilton/margaret-hamilton.html')">Margaret
+            Hamilton</a> </div>
+        <div class="box c1"> <a href="#" onclick="cargarPagina('Samuel%20Quiza%20Daphne%20Koller/Daphne%20Koller..html')">Daphne
+            Koller</a> </div>
+        <div class="box c2"> <a href="#" onclick="cargarPagina('Sergio%20Encinas/Katherine%20Johnson_SergioEncinas.html')">Katherine
+            Johnson</a> </div>
+        <div class="box c3"> <a href="#" onclick="cargarPagina('Sergio%20Izquierdo/Ada%20Lovelace.html')">Ada
+            Lovelace</a> </div>
+        <div class="box c4"> <a href="#" onclick="cargarPagina('SofiaMaryKenn/Mary%20Kenneth%20Keller.html')">Mary
+            Kenneth Keller</a> </div>
+      </div>
+      <div class="frame"> <iframe id="miIframe" src="" frameborder="0"></iframe>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Mary Kenneth Keller</title>
+    <link type="text/css" rel="stylesheet" href="style/1.css" title="Inicio">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&amp;display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <header class="header content">
+      <div class="header-video"> <video src="videoo.mp4" autoplay="autoplay" muted="muted"
+          controls="controls" loop=""></video> </div>
+      <div class="header-overlay"></div>
+      <div class="header-content">
+        <table class="menu">
+          <tbody>
+            <tr>
+              <td><a href="Mary%20Kenneth%20Keller.html" title="Inicio">Inicio</a></td>
+              <td><a href="Biografia.html" title="Biografia">Biografia</a></td>
+              <td><a href="Publicaciones.html" title="Publicaciones">Publicaciones</a></td>
+              <td><a href="Reconocimientos.html" title="Reconocimientos">Reconocimiento</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <dir class="contenedor">
+          <h1>MARY&nbsp; KENNETH&nbsp; KELLER</h1>
+        </dir>
+        <h3 class="texto">fue una religiosa católica, pionera informática y la
+          primera mujer doctorada en informática en Estados Unidos. </h3>
+        <footer id="footer">
+          <p class="autor">Autor: Sofía Pérez Puerta 2025</p>
+        </footer>
+      </div>
+    </header>
+  </body>
+</html>

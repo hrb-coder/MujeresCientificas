@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ángela Ruiz Robles - Pionera de las TIC</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        header {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        
+        .subtitle {
+            font-style: italic;
+            font-weight: 300;
+            margin-top: 0.5rem;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+        
+        .profile-image {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            color: #666;
+        }
+        
+        section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #2575fc;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 5px;
+            height: calc(100% - 10px);
+            width: 2px;
+            background-color: #2575fc;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -34px;
+            top: 5px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #6a11cb;
+        }
+        
+        .timeline-year {
+            font-weight: bold;
+            color: #6a11cb;
+        }
+        
+        .proyecto {
+            margin-bottom: 1.5rem;
+            border-left: 4px solid #2575fc;
+            padding-left: 15px;
+        }
+        
+        .proyecto h3 {
+            color: #6a11cb;
+            margin-bottom: 0.5rem;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            background-color: #333;
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .profile {
+                margin-bottom: 1rem;
+            }
+            
+            .profile-image {
+                width: 200px;
+                height: 200px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Ángela Ruiz Robles</h1>
+      <p class="subtitle">Maestra, inventora y pionera de las tecnologías de la
+        información</p>
+    </header>
+    <div class="container">
+      <div class="profile">
+        <div class="profile-image"><br>
+        </div>
+      </div>
+      <section>
+        <h2>Biografía</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <p><span class="timeline-year">1895</span> - Nace el 28 de marzo en
+              Villamanín, León, España.</p>
+          </div>
+          <div class="timeline-item">
+            <p><span class="timeline-year">1917</span> - Obtiene el título de
+              Maestra de Primera Enseñanza.</p>
+          </div>
+          <div class="timeline-item">
+            <p><span class="timeline-year">1918</span> - Comienza a ejercer como
+              maestra en León.</p>
+          </div>
+          <div class="timeline-item">
+            <p><span class="timeline-year">1934</span> - Se traslada a Ferrol
+              (Galicia) donde continúa su labor docente.</p>
+          </div>
+          <div class="timeline-item">
+            <p><span class="timeline-year">1949</span> - Presenta la primera
+              patente de su "Enciclopedia Mecánica".</p>
+          </div>
+          <div class="timeline-item">
+            <p><span class="timeline-year">1952</span> - Mejora su invento y
+              registra una segunda patente.</p>
+          </div>
+          <div class="timeline-item">
+            <p><span class="timeline-year">1962</span> - Construye un prototipo
+              de la Enciclopedia Mecánica en el Parque de Artillería de Ferrol.</p>
+          </div>
+          <div class="timeline-item">
+            <p><span class="timeline-year">1970</span> - Recibe la Medalla al
+              Mérito en el Trabajo.</p>
+          </div>
+          <div class="timeline-item">
+            <p><span class="timeline-year">1974</span> - Es nombrada Directora
+              honoraria del Centro de Documentación y Orientación Didáctica de
+              Enseñanza Primaria.</p>
+          </div>
+          <div class="timeline-item">
+            <p><span class="timeline-year">1975</span> - Fallece el 27 de
+              octubre en Ferrol, A Coruña, España.</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Contribuciones a las TIC</h2>
+        <p>Ángela Ruiz Robles fue una visionaria adelantada a su tiempo. Sus
+          contribuciones principales incluyen:</p>
+        <ul>
+          <li>Inventora de la <strong>Enciclopedia Mecánica</strong>,
+            considerada precursora del libro electrónico (e-book).</li>
+          <li>Pionera en la implementación de métodos de enseñanza innovadores
+            usando tecnología.</li>
+          <li>Desarrolló un sistema que permitía la actualización del contenido
+            educativo sin necesidad de adquirir nuevos libros.</li>
+          <li>Implementó elementos interactivos en su diseño que anticiparon
+            características de los dispositivos electrónicos modernos.</li>
+          <li>Integró elementos audiovisuales en su diseño, adelantándose a los
+            conceptos multimedia.</li>
+          <li>Propuso conceptos de portabilidad y acceso a la información que
+            hoy son fundamentales en las TIC.</li>
+        </ul>
+        <p>Su labor innovadora sentó las bases para conceptos que hoy son
+          fundamentales en las tecnologías educativas y de la información,
+          anticipándose casi 50 años a la llegada de los libros electrónicos
+          comerciales.</p>
+      </section>
+      <section>
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+          <h3>Enciclopedia Mecánica (1949)</h3>
+          <p>Su invento más revolucionario y por el que es reconocida
+            mundialmente. Consistía en un dispositivo mecánico con rollos
+            intercambiables que contenían información sobre diferentes materias.
+            Incluía:</p>
+          <ul>
+            <li>Sistema de bobinas para cambiar el contenido temático</li>
+            <li>Luz para leer en condiciones de poca iluminación</li>
+            <li>Lupa para ampliar textos pequeños</li>
+            <li>Posibilidad de incorporar sonido</li>
+          </ul>
+          <p>El objetivo principal era aligerar el peso de las mochilas de los
+            estudiantes y hacer el aprendizaje más interactivo.</p>
+        </div>
+        <div class="proyecto">
+          <h3>Atlas Científico Gramatical (1944)</h3>
+          <p>Recurso didáctico que simplificaba el aprendizaje de la gramática
+            española mediante representaciones gráficas y esquemas.</p>
+        </div>
+        <div class="proyecto">
+          <h3>Compendio de Ortografía Española (1957)</h3>
+          <p>Método innovador para enseñar ortografía, basado en técnicas
+            visuales y mnemotécnicas.</p>
+        </div>
+        <div class="proyecto">
+          <h3>Método Taquigráfico (1958)</h3>
+          <p>Desarrollo de un sistema simplificado para la enseñanza de la
+            taquigrafía.</p>
+        </div>
+      </section>
+      <section>
+        <h2>Legado</h2>
+        <p>El trabajo de Ángela Ruiz Robles ha sido reconocido años después de
+          su muerte como pionero en el campo de las tecnologías educativas.
+          Actualmente:</p>
+        <ul>
+          <li>El prototipo de la Enciclopedia Mecánica se conserva en el Museo
+            Nacional de Ciencia y Tecnología (MUNCYT) en A Coruña, España.</li>
+          <li>En su honor se han creado premios de innovación educativa que
+            llevan su nombre.</li>
+          <li>Es considerada una figura clave en la historia de la innovación
+            tecnológica española.</li>
+          <li>Su visión de integrar tecnología en la educación sigue inspirando
+            a nuevas generaciones de educadores y desarrolladores.</li>
+        </ul>
+      </section>
+    </div>
+    <footer>
+      <p><br>
+      </p>
+    </footer>
+  </body>
+</html>

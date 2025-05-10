@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="style/2.css">
+  </head>
+  <body>
+    <p> </p>
+    <table class="menu">
+          <tbody>
+            <tr>
+              <td><a href="Mary%20Kenneth%20Keller.html" title="Inicio">Inicio</a></td>
+              <td><a href="Biografia.html" title="Biografia">Biografia</a></td>
+              <td><a href="Publicaciones.html" title="Publicaciones">Publicaciones</a></td>
+              <td><a href="Reconocimientos.html" title="Reconocimientos">Reconocimiento</a></td>
+            </tr>
+          </tbody>
+        </table>
+    <h1 class="tituloB"> Biografia </h1>
+    <p><span data-teams="true"> </span> </p>
+    <p class="Texto">Mary Kenneth Keller (1914–1985) fue una monja, educadora e
+      investigadora que marcó un hito en la historia de la computación. Algunos
+      puntos clave de su vida son:</p>
+    <ul>
+      <li class="Texto"><strong>Trayectoria Académica y Profesional:</strong><br>
+        Fue una de las primeras mujeres en obtener un doctorado en ciencias de
+        la computación en los Estados Unidos, lo que rompió barreras en un campo
+        hasta entonces dominado por hombres. Su sólida formación en matemáticas
+        y educación le permitió explorar nuevas metodologías para enseñar
+        conceptos computacionales.</li>
+      <li class="Texto"><strong>Vocación y Servicio:</strong><br>
+        Como miembro de una congregación religiosa, combinó su compromiso
+        espiritual con su pasión por la educación. Esto la llevó a involucrarse
+        en proyectos que buscaban hacer la informática accesible y comprensible,
+        incluso en instituciones de artes liberales.</li>
+      <li class="Texto"><strong>Innovación en la Educación:</strong><br>
+        Keller se destacó por su visión de integrar la informática en currículos
+        educativos tradicionales. Su labor pionera impulsó el desarrollo de
+        programas y cursos que hoy se consideran esenciales en la formación en
+        ciencias de la computación.</li>
+    </ul>
+    <div class="carrusel"> <img class="elemento" src="img/biografia/11.jpg" alt="1">
+      <img class="elemento" src="img/biografia/22.jpg" alt="2"> <img class="elemento"
+
+        src="img/biografia/33.jpg" alt="3"> <img class="elemento" src="img/biografia/44.jpg"
+
+        alt="4"> <img class="elemento" src="img/biografia/55.jpg" alt="5"> <img
+
+        class="elemento" src="img/biografia/11.jpg" alt="1"> <img class="elemento"
+
+        src="img/biografia/22.jpg" alt="2"> <img class="elemento" src="img/biografia/33.jpg"
+
+        alt="3"> <img class="elemento" src="img/biografia/44.jpg" alt="4"> <img
+
+        class="elemento" src="img/biografia/55.jpg" alt="5"> </div>
+    <footer id="footer">
+      <p class="autor">Autor: Sofía Pérez Puerta 2025</p>
+    </footer>
+    
+  </body>
+</html>

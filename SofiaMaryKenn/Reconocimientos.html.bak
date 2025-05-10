@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="file:///C:/Users/sofia/OneDrive/Escritorio/SofiaMaryKenn/style/2.css">
+  </head>
+  <body>
+    <p> </p>
+    <table class="menu">
+      <tbody>
+        <tr>
+          <td><a href="file:///C:/Users/sofia/OneDrive/Escritorio/SofiaMaryKenn/Mary%20Kenneth%20Keller.html"
+              title="Inicio">Inicio</a></td>
+          <td><a href="file:///C:/Users/sofia/OneDrive/Escritorio/SofiaMaryKenn/Biografia.html"
+              title="Biografia">Biografia</a></td>
+          <td><a href="file:///C:/Users/sofia/OneDrive/Escritorio/SofiaMaryKenn/Publicaciones.html"
+              title="Publicaciones">Publicaciones</a></td>
+          <td><a href="file:///C:/Users/sofia/OneDrive/Escritorio/SofiaMaryKenn/Reconocimientos.html"
+              title="Reconocimientos">Reconocimiento</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <h1 class="tituloB"> Reconocimientos</h1>
+    <p><span data-teams="true"> </span></p>
+    <p class="Texto">El impacto de Mary Kenneth Keller en la informática y la
+      educación ha sido reconocido tanto durante su vida como posteriormente:</p>
+    <ul>
+      <li class="Texto"><strong>En Vida:</strong>
+        <ul>
+          <li>Recibió diversos premios y distinciones por su labor en la
+            educación, algunos otorgados por instituciones académicas y
+            asociaciones del ámbito de la computación, como la ACM (Association
+            for Computing Machinery).</li>
+          <li>Fue homenajeada por su capacidad para integrar la informática en
+            currículos tradicionales y por abrir camino a futuras generaciones
+            de mujeres en tecnología.</li>
+        </ul>
+      </li>
+      <li class="Texto"><strong>Póstumamente:</strong>
+        <ul>
+          <li>Su legado ha sido recordado en salones de la fama y en
+            conmemoraciones históricas dedicadas a las pioneras en tecnología.</li>
+          <li>Varias universidades y organizaciones han establecido becas y
+            programas educativos en su nombre, lo que evidencia el
+            reconocimiento duradero de sus contribuciones al campo.</li>
+        </ul>
+      </li>
+    </ul>
+    <footer id="footer">
+      <p class="autor">Autor: Sofía Pérez Puerta 2025</p>
+    </footer>
+  </body>
+</html>

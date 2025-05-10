@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fei-Fei Li - Biografía y Logros</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&amp;family=Montserrat:wght@400;600&amp;display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Lora', serif;
+            background-color: #f4f4f4; /* Color de fondo más claro, similar a un periódico */
+            background-image: url('https://www.transparenttextures.com/patterns/paper.png'); /* Textura sutil de papel */
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+        }
+        header h1 { font-size: 2.8rem; }
+        .biografia h2, .hitos h2, .galeria h2, .social-media h2 {
+            color: #2575fc;
+            margin-top: 20px;
+            font-size: 2rem;
+        }
+        .hitos { background-color: #f4f4f4; padding: 20px; border-radius: 10px; }
+        .hitos ul { list-style-type: none; }
+        .hitos li { font-size: 1.2rem; margin-bottom: 15px; color: #555; }
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 4px;
+            background-color: #6a11cb;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -2px;
+        }
+        .timeline-item {
+            padding: 10px 40px;
+            position: relative;
+            width: 50%;
+            margin-bottom: 20px;
+        }
+        .timeline-item:nth-child(odd) { left: 0; }
+        .timeline-item:nth-child(even) { left: 50%; }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            background-color: #2575fc;
+            border-radius: 50%;
+            top: 15px;
+            right: -8px;
+        }
+        .galeria img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 12px;
+            transition: transform 0.3s;
+        }
+        .galeria img:hover { transform: scale(1.05); }
+        .social-media a {
+            font-size: 24px;
+            margin: 0 10px;
+            color: #2575fc;
+        }
+        .social-media a:hover { color: #6a11cb; }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Fei-Fei Li</h1>
+      </header>
+      <section class="biografia">
+        <h2>Biografía</h2>
+        <p>Fei-Fei Li es una destacada científica en el campo de la inteligencia
+          artificial (IA), especializada en visión por computadora. Nació en
+          China y se mudó a los Estados Unidos para continuar sus estudios. Es
+          profesora en la Universidad de Stanford, donde ha sido pionera en la
+          creación de tecnologías que ayudan a las máquinas a "ver" e
+          interpretar el mundo.</p>
+        <p>Li ha sido fundamental en el desarrollo de <a href="https://www.image-net.org/"
+            target="_blank">ImageNet</a>, una base de datos que permitió avances
+          importantes en el aprendizaje profundo. Además, ha trabajado como
+          directora del laboratorio de IA en Stanford, <a href="https://www.sail.stanford.edu/"
+            target="_blank">SAIL</a>, y ha sido líder en diversas iniciativas
+          relacionadas con la diversidad en la IA, como <a href="https://ai-4-all.org/"
+            target="_blank">AI4ALL</a>.</p>
+      </section>
+      <section class="hitos">
+        <h2>Hitos mas Importantes</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <p><strong>2007:</strong> Creación de <a href="https://www.image-net.org/"
+                target="_blank">ImageNet</a>, revolucionando el campo de la
+              visión por computadora.</p>
+          </div>
+          <div class="timeline-item">
+            <p><strong>2015:</strong> Se convierte en directora del <a href="https://www.sail.stanford.edu/"
+                target="_blank">SAIL</a> en Stanford, impulsando avances en IA.</p>
+          </div>
+          <div class="timeline-item">
+            <p><strong>2017:</strong> Fei-Fei Li nombrada científica principal
+              de IA en <a href="https://cloud.google.com/blog/topics/ai-machine-learning"
+                target="_blank">Google Cloud</a>.</p>
+          </div>
+          <div class="timeline-item">
+            <p><strong>2017:</strong> funda <a href="https://ai-4-all.org/" target="_blank">AI4ALL</a>,
+              con el objetivo de promover la diversidad y la inclusión en el
+              campo de la inteligencia artificial.</p>
+          </div>
+          <div class="timeline-item">
+            <p><strong>2024:</strong> Fundación de <a href="https://www.worldlabs.ai/"
+                target="_blank">World Labs</a>, una empresa con un enfoque de
+              $230 millones en IA tridimensional.</p>
+          </div>
+        </div>
+      </section>
+      <section class="galeria">
+        <h2>Imagen</h2>
+        <img src="https://deeplearningindaba.com/wp-content/uploads/2019/07/dr-fei-fei-li.jpg"
+          alt="Fei-Fei Li"> </section>
+      <section class="social-media">
+        <h2>Conéctate con Fei-Fei Li</h2>
+        <a href="https://twitter.com/FeiFeiLi" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/feifeili/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </section>
+    </div>
+  </body>
+</html>

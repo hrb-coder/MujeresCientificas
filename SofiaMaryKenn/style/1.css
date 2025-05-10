@@ -1,0 +1,129 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white;
+  overflow-x: hidden;
+  font-family: "Comfortaa", serif;
+}
+
+.header {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.header-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header-video video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.header-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../img/fondo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  height: 100%; 
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+  margin-top: 22em;
+}
+
+.header-content h1 {
+  color: #6be7ad !important;
+  font-size: 3em;
+  margin: 0;
+  text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}
+
+.header-content h2 {
+  text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}
+
+.header-content #footer {
+  text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  max-width: 80%; 
+  text-align: center; 
+}
+
+/* Quitar el subrayado del hipervínculo */
+a {
+  text-decoration: none;
+}
+
+/*tabla class:menu*/
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #355245;
+  opacity: 0.85;
+  z-index: 10;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}
+
+.menu a {
+  color: #6be7ad; 
+  font-size: 1rem;
+  margin: 0.1px; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+.menu a:hover {
+  background-color: #355245; 
+  color: #d5a5d3 !important; 
+}
+
+.texto {
+  margin-left: 300px !important;
+  margin-top: 0;
+}
+
+.active{
+  color:#d5a5d3 !important;
+  font-weight: bolder;
+}
